@@ -1,3 +1,4 @@
+telescope = require 'telescope'
 fakengx  = require 'fakengx'
 inspect  = require 'spec.inspect'
 
