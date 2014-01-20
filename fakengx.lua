@@ -233,11 +233,21 @@ local protoype = {
   DEBUG  = 8,
 
   -- HTTP Method Constants
-  HTTP_GET    = "GET",
-  HTTP_HEAD   = "HEAD",
-  HTTP_POST   = "POST",
-  HTTP_PUT    = "PUT",
-  HTTP_DELETE = "DELETE",
+  HTTP_GET      = "GET",
+  HTTP_HEAD     = "HEAD",
+  HTTP_PUT      = "PUT",
+  HTTP_POST     = "POST",
+  HTTP_DELETE   = "DELETE",
+  HTTP_OPTIONS  = "OPTIONS",
+  HTTP_MKCOL    = "MKCOL",
+  HTTP_COPY     = "COPY",
+  HTTP_MOVE     = "MOVE",
+  HTTP_PROPFIND = "PROPFIND",
+  HTTP_PROPPATCH= "PROPPATCH",
+  HTTP_LOCK     = "LOCK",
+  HTTP_UNLOCK   = "UNLOCK",
+  HTTP_PATCH    = "PATCH",
+  HTTP_TRACE    = "TRACE",
 
   -- HTTP Status Constants
   HTTP_OK                        = 200,
@@ -270,7 +280,7 @@ local protoype = {
   HTTP_NOT_IMPLEMENTED           = 501,
   HTTP_BAD_GATEWAY               = 502,
   HTTP_SERVICE_UNAVAILABLE       = 503,
-  HTTP_GATEWAY_TIME_OUT          = 504,
+  HTTP_GATEWAY_TIMEOUT           = 504,
   HTTP_INSUFFICIENT_STORAGE      = 507,
 
 }
