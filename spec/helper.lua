@@ -1,6 +1,7 @@
-telescope = require 'telescope'
 fakengx  = require 'fakengx'
 inspect  = require 'spec.inspect'
+
+local telescope = require 'telescope'
 
 local function compare_tables(t1, t2)
   local ty1 = type(t1)
